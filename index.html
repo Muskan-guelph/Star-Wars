@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Star Wars</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <section class="banner">
+    <div class="content">
+      <img src="images/title.png" class="title" alt="star wars">
+      <a href="articles.html" class="btn">Start HyperDrive</a>
+  </section>
+</body>
+<style>
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #10110e;
+    background-image: url("images/background.jpeg");
+  }
+
+  section {
+    position: relative;
+    padding: 100px;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner .content {
+    position: relative;
+    max-width: 1000px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .banner .content .title {
+    justify-content: center;
+    position:relative;
+    display: flex;
+    align-items: center;
+    padding:15px;
+    max-width:1000px;
+    max-height:auto;
+  }
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Tahoma,Verdana;
+    color: black;
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    background: #fff496;
+  }
+
+  .btn:active {
+    background: #FFE81F;
+  }
+
+</style>
+
+</html>
