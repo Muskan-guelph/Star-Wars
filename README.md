@@ -7,4 +7,5 @@ The project involved:
 * JavaScript: For adding interactivity and dynamic content.
 * Responsive Design: Ensuring the site was accessible on both desktop and mobile devices.
 * Content Creation: Writing detailed and engaging articles about different elements of the Star Wars universe.
+
 This project was the highest-graded assignment in the course, and my professor shared it with the entire class as an example of excellent work. It was a rewarding experience that enhanced my web development skills and deepened my passion for creating
