@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Star Wars</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <section class="logo">
+    <a href="index.html">
+      <img src="images/logo.png" class="logo" alt="star wars logo">
+    </a>
+  </section>
+  <section class="banner">
+    <div class="container">
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>01</h2>
+            <h3>Article One</h3>
+            <p>The Low-Key Approach to Technology in Star Wars</p>
+            <a href="article-1.html">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>02</h2>
+            <h3>Article Two</h3>
+            <p>Could Life be Better if Our Own Technology was Less Omnipresent?</p>
+            <a href="article-2.html">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #10110e;
+    background-image: url("images/background.jpeg");
+  }
+
+  .logo {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 165px;
+    height: auto;
+    max-block-size: 100px;
+    z-index: 1;
+  }
+
+  section {
+    position: relative;
+    padding: 50px;
+  }
+
+  .banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+
+  .banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+
+  .banner .container .card {
+    position: relative;
+    min-width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+      inset -5px -5px 5px rgba(255, 255, 255, 0.1),
+      5px 5px 5px rgba(0, 0, 0, 0.3),
+      -5px -5px 5px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 30px;
+  }
+
+  .banner .container .card .box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #101215;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  .banner .container .card:hover .box {
+    transform: translateY(-50px);
+    box-shadow: 0 20px 70px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(45deg, #FFE81F, #FFC31F);
+
+  }
+
+  .banner .container .card .box .content {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .banner .container .card .box .content h2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0.05);
+    transition: 0.5s;
+    pointer-events: none;
+    font-family: Arial;
+  }
+
+  .banner .container .card:hover .box .content h2 {
+    color: rgba(255, 255, 255, 0.1);
+  }
+
+  .banner .container .card .box .content h3 {
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .banner .container .card .box .content p {
+    font-size: 1em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 1;
+    transition: 0.5s;
+  }
+
+  .banner .container .card:hover .box .content h3,
+  .banner .container .card:hover .box .content p {
+    color: black;
+  }
+  
+  .banner .container .card:active .box .content h3,
+  .banner .container .card:active .box .content p {
+    color: black;
+  }
+
+  .banner .container .card .box .content a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #FFE81F;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .banner .container .card:hover .box .content a {
+    background: white;
+  }
+</style>
+
+</html>
