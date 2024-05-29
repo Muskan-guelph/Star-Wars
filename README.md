@@ -1,4 +1,7 @@
 # Star-Wars
+
+[Website](https://muskan-guelph.github.io/Star-Wars/)
+
 In January 2023, I developed my first website for a university project. The task was to design and develop an article site on a topic of personal interest. I chose the exciting universe of Star Wars, covering various aspects such as characters, storylines, and fan theories.
 
 The project involved:
